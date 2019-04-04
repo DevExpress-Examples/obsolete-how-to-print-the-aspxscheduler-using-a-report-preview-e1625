@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Calendar.aspx](./CS/SchedulerReportPreviewTest/Calendar.aspx) (VB: [Calendar.aspx](./VB/SchedulerReportPreviewTest/Calendar.aspx))
-* [Calendar.aspx.cs](./CS/SchedulerReportPreviewTest/Calendar.aspx.cs) (VB: [Calendar.aspx](./VB/SchedulerReportPreviewTest/Calendar.aspx))
+* [Calendar.aspx.cs](./CS/SchedulerReportPreviewTest/Calendar.aspx.cs) (VB: [Calendar.aspx.vb](./VB/SchedulerReportPreviewTest/Calendar.aspx.vb))
 * [ReportPreview.ascx.cs](./CS/SchedulerReportPreviewTest/Reports/ReportPreview.ascx.cs) (VB: [ReportPreview.ascx.vb](./VB/SchedulerReportPreviewTest/Reports/ReportPreview.ascx.vb))
 * [Root.Master.cs](./CS/SchedulerReportPreviewTest/Root.Master.cs) (VB: [Root.Master.vb](./VB/SchedulerReportPreviewTest/Root.Master.vb))
 <!-- default file list end -->
