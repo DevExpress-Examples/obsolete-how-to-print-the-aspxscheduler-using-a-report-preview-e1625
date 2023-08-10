@@ -1,1 +1,0 @@
-<%@ Application Codebehind="Global.asax.cs" Inherits="SchedulerReportPreviewTest.Global_asax" Language="C#" %>
