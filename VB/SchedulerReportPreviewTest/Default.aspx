@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" MasterPageFile="~/Main.master" CodeBehind="Default.aspx.vb" Inherits="SchedulerReportPreviewTest._Default" %>
+<%@ Page Language="VB" AutoEventWireup="true" MasterPageFile="~/Main.master" CodeBehind="Default.aspx.vb" Inherits="SchedulerReportPreviewTest._Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Left" runat="server">
     <%-- DXCOMMENT: Configure TreeView that allows filtering the displayed mail messages --%>
@@ -52,7 +52,7 @@
                                                 <div class="attachcap"></div>
                                             </HeaderCaptionTemplate>
                                             <DataItemTemplate>
-                                                <dx:ASPxImage ID="AttachmentImg" runat="server" ImageUrl="images/attach.png" Visible='<%#Eval("HasAttachment")%>' />
+                                                <dx:ASPxImage ID="AttachmentImg" runat="server" ImageUrl="images/attach.png" Visible='<%# Eval("HasAttachment") %>' />
                                             </DataItemTemplate>
                                             <HeaderStyle HorizontalAlign="Center" SortingImageSpacing="5px" />
                                         </dx:GridViewDataColumn>
@@ -100,6 +100,6 @@
 <%-- DXCOMMENT: Configure a data source that contains mail messages --%>
 <asp:SqlDataSource ID="MessagesDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:DataConnectionString %>"
     ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [Messages]">
-
+ 
 </asp:SqlDataSource>
 </asp:Content>

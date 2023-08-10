@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" MasterPageFile="~/Main.master" CodeBehind="Calendar.aspx.vb" Inherits="SchedulerReportPreviewTest.Calendar" %>
+<%@ Page Language="VB" AutoEventWireup="true" MasterPageFile="~/Main.master" CodeBehind="Calendar.aspx.vb" Inherits="SchedulerReportPreviewTest.Calendar" %>
 
 <%@ Register Assembly="DevExpress.Web.ASPxScheduler.v15.2, Version=15.2.20.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxScheduler" TagPrefix="dx" %>
 <%@ Register Assembly="DevExpress.Web.ASPxScheduler.v15.2, Version=15.2.20.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxScheduler.Controls" TagPrefix="dx" %>
@@ -46,7 +46,7 @@
         <OptionsBehavior RecurrentAppointmentEditAction="Ask" />
         <BorderLeft BorderWidth="0" />
     </dx:ASPxScheduler>
-
+    
     <%-- DXCOMMENT: Configure appointment mappings --%>
     <asp:SqlDataSource ID="AppointmentDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:DataConnectionString %>"
         DeleteCommand="DELETE FROM [Appointments] WHERE [ID] = @ID" InsertCommand="INSERT INTO [Appointments] ([EventType], [StartDate], [EndDate], [AllDay], [Subject], [Location], [Description], [Status], [Label], [ResourceID], [RecurrenceInfo], [ReminderInfo], [ContactInfo]) VALUES (@EventType, @StartDate, @EndDate, @AllDay, @Subject, @Location, @Description, @Status, @Label, @ResourceID, @RecurrenceInfo, @ReminderInfo, @ContactInfo)"
@@ -89,7 +89,7 @@
         </UpdateParameters>
     </asp:SqlDataSource>
 
-
+    
     <%-- DXCOMMENT: Configure resource mappings --%>
     <asp:SqlDataSource ID="ResourceDataSource" runat="server" 
         ConnectionString="<%$ ConnectionStrings:DataConnectionString %>" 

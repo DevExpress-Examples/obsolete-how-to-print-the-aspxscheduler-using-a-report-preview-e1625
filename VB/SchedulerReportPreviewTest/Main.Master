@@ -1,4 +1,4 @@
-﻿<%@ Master Language="vb" MasterPageFile="~/Root.Master" AutoEventWireup="true" CodeBehind="Main.master.vb" Inherits="SchedulerReportPreviewTest.Main" %>
+<%@ Master Language="C#" MasterPageFile="~/Root.Master" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="SchedulerReportPreviewTest.Main" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
     <script type="text/javascript" src="scripts/script.js"></script>

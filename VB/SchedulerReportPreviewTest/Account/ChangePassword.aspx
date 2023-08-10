@@ -1,11 +1,11 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" MasterPageFile="~/Light.master" CodeBehind="ChangePassword.aspx.vb" Inherits="SchedulerReportPreviewTest.ChangePassword" %>
+<%@ Page Language="VB" AutoEventWireup="true" MasterPageFile="~/Light.master" CodeBehind="ChangePassword.aspx.vb" Inherits="SchedulerReportPreviewTest.ChangePassword" %>
 
 <asp:Content ID="Content" ContentPlaceHolderID="MainContent" runat="server">
     <div class="accountHeader">
     <h2>
         Change Password</h2>
     <p>Use the form below to change your password.</p>
-    <p>New passwords are required to be a minimum of <%=Membership.MinRequiredPasswordLength%> characters in length.</p>
+    <p>New passwords are required to be a minimum of <%= Membership.MinRequiredPasswordLength %> characters in length.</p>
 </div>
 
 <br />

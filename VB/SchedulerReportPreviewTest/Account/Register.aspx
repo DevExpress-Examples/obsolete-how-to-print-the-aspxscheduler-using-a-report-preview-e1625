@@ -1,11 +1,11 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" MasterPageFile="~/Light.master" CodeBehind="Register.aspx.vb" Inherits="SchedulerReportPreviewTest.Register" %>
+<%@ Page Language="VB" AutoEventWireup="true" MasterPageFile="~/Light.master" CodeBehind="Register.aspx.vb" Inherits="SchedulerReportPreviewTest.Register" %>
 
 <asp:content id="ClientArea" contentplaceholderid="MainContent" runat="server">
     <div class="accountHeader">
     <h2>
         Create a New Account</h2>
     <p>Use the form below to create a new account.</p>
-    <p>Passwords are required to be a minimum of <%=Membership.MinRequiredPasswordLength%> characters in length.</p>
+    <p>Passwords are required to be a minimum of <%= Membership.MinRequiredPasswordLength %> characters in length.</p>
 </div>
     <dx:ASPxLabel ID="lblUserName" runat="server" AssociatedControlID="tbUserName" Text="User Name:" />
     <div class="form-field">

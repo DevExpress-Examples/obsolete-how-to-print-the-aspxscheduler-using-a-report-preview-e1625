@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" MasterPageFile="~/Light.master" CodeBehind="RegisterSuccess.aspx.vb" Inherits="SchedulerReportPreviewTest.RegisterSuccess" %>
+<%@ Page Language="VB" AutoEventWireup="true" MasterPageFile="~/Light.master" CodeBehind="RegisterSuccess.aspx.vb" Inherits="SchedulerReportPreviewTest.RegisterSuccess" %>
 
 <asp:content id="ClientArea" contentplaceholderid="MainContent" runat="server">
     <div class="accountHeader">

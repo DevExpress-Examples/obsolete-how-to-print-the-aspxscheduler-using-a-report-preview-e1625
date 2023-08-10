@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" MasterPageFile="~/Light.master" CodeBehind="ChangePasswordSuccess.aspx.vb" Inherits="SchedulerReportPreviewTest.ChangePasswordSuccess" %>
+<%@ Page Language="VB" AutoEventWireup="true" MasterPageFile="~/Light.master" CodeBehind="ChangePasswordSuccess.aspx.vb" Inherits="SchedulerReportPreviewTest.ChangePasswordSuccess" %>
 
 <asp:Content ID="MainContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="accountHeader">

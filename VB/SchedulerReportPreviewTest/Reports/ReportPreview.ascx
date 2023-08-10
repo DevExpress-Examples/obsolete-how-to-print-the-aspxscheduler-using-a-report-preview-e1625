@@ -1,4 +1,4 @@
-﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="ReportPreview.ascx.vb" Inherits="SchedulerReportPreviewTest.Reports.ReportPreview" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ReportPreview.ascx.cs" Inherits="SchedulerReportPreviewTest.Reports.ReportPreview" %>
 <%@ Register Assembly="DevExpress.XtraReports.v15.2.Web, Version=15.2.20.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.XtraReports.Web" TagPrefix="dx" %>
 <dx:ASPxDocumentViewer ID="ASPxDocumentViewer1" runat="server" ClientInstanceName="clientReportViewer">
         <ToolbarItems>

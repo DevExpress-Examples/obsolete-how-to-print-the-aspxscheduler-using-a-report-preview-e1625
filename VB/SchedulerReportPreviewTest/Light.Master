@@ -1,4 +1,4 @@
-﻿<%@ Master Language="vb" MasterPageFile="~/Root.Master" AutoEventWireup="true" CodeBehind="Light.master.vb" Inherits="SchedulerReportPreviewTest.Light" %>
+<%@ Master Language="C#" MasterPageFile="~/Root.Master" AutoEventWireup="true" CodeBehind="Light.master.cs" Inherits="SchedulerReportPreviewTest.Light" %>
 
 <%-- DXCOMMENT: Page Light.master is a master page for Account pages --%>
 
